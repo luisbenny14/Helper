@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+const colors = require('colors');
+const cmd = require('commander');
+
+cmd
+  .command('todo')
+  .description('Todo list for this challenge')
+  .action(function(){
+    console.log('Tareas a realizar:'.green.bold);
+    console.log('* Agregar un comando'.white, '\'help\''.blue.bold, 'para mostrar la lista de comandos disponibles'.white);
+    console.log('* Agregar un comando'.white, '\'git\''.blue.bold, 'que liste los pasos a seguir para hacer un commit'.white);
+    console.log('* Agregar un comando'.white, '\'linux\''.blue.bold, 'que muestre un link a los pasos a seguir para instalar linux en su máquina'.white);
+    console.log('* Agregar un comando'.white, '\'clases\''.blue.bold, 'que muestre los horarios de clase de coderoom'.white);
+  });
+
+cmd.parse(process.argv);

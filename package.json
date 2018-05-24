@@ -1,0 +1,18 @@
+{
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "coderoom": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vampaynani",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "commander": "^2.15.1"
+  }
+}
