@@ -12,6 +12,6 @@
 5. En este reto cuenta mucho el como se ve la información reflejada(usando colores o estilos de texto) y que tan claras son tus instrucciones.
 6. *Bonus!!!* Si ya terminaste y deseas un bonus, agrega un nuevo comando `costo` que nos saque en consola el costo de tu trabajo con respecto al valor de tus horas. Suponiendo que mi costo por hora es de $150:
 ```
-$ ./coderoom costo 8
+$ ./coderoom costo --horas 8
 $ $1,200
 ```
